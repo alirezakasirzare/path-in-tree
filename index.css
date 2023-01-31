@@ -1,0 +1,29 @@
+.test-results {
+  border: 1px solid #777;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.test-results,
+.test-results th,
+.test-results td {
+  border: 1px solid #777;
+  padding: 5px;
+}
+
+.test-results td.success {
+  color: green;
+}
+
+.test-results td.failure {
+  color: red;
+}
+
+.test-results td.success,
+.test-results td.failure {
+  text-align: center;
+}
+
+.test-results th.description {
+  text-align: left;
+}
